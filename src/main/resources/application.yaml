@@ -1,3 +1,11 @@
 spring:
   application:
     name: mcptest1
+  ai:
+    mcp:
+      server:
+        name: mcptest1-server
+        version: 1.0.0
+        protocol: streamable
+        stdio: false
+        type: sync
